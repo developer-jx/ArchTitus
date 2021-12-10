@@ -1,5 +1,7 @@
 # ArchTitus Installer Script
 
+## This fork is **broken** due to the removal of the Plasma Environment and Konsave. This fork aims to replace the KDE Environment and remove Konsave altogether and have the script build the dotfiles and configure everything automatically without a prior environment.
+
 <img src="https://i.imgur.com/YiNMnan.png" />
 
 This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
