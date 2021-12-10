@@ -250,7 +250,7 @@ PKGS=(
 )
 
 for PKG in "${PKGS[@]}"; do
-    echo "INSTALLING: ${PKG}"
+    echo "\n[ARCHX] INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
 done
 

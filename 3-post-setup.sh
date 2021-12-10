@@ -20,9 +20,9 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 # ------------------------------------------------------------------------
 
-echo -e "\nEnabling Login Display Manager"
+echo -e "\n[ArchX] Enabling Login Display Manager"
 systemctl enable sddm.service
-echo -e "\nSetup SDDM Theme"
+echo -e "\n[ArchX] Setup SDDM Theme"
 cat <<EOF > /etc/sddm.conf
 [Theme]
 Current=Nordic
@@ -30,7 +30,7 @@ EOF
 
 # ------------------------------------------------------------------------
 
-echo -e "\nEnabling essential services"
+echo -e "\n[ArchX] Enabling essential services"
 
 systemctl enable cups.service
 ntpd -qg

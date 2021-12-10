@@ -78,13 +78,13 @@ export PATH=$PATH:~/.local/bin
 cp -r $HOME/ArchTitus/dotfiles/* $HOME/.config/
 
 
-# Archived ARCHTITUS configuration pass-over.
-# export PATH=$PATH:~/.local/bin
-# cp -r $HOME/ArchTitus/dotfiles/* $HOME/.config/
-# pip install konsave
-# konsave -i $HOME/ArchTitus/kde.knsv
-# sleep 1
-# konsave -a kde
+# #REMOVED -- Archived ARCHTITUS configuration pass-over.
+export PATH=$PATH:~/.local/bin
+cp -r $HOME/ArchTitus/dotfiles/* $HOME/.config/
+pip install konsave
+konsave -i $HOME/ArchTitus/kde.knsv
+sleep 1
+konsave -a kde
 
 echo -e "\n[ArchX] Done setting up users and AUR! Proceeding to post-setup configuration.\n"
 exit
