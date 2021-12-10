@@ -1,6 +1,11 @@
 # ArchTitus Installer Script
 
 ## This fork is **broken** due to the removal of the Plasma Environment and Konsave. This fork aims to replace the KDE Environment and remove Konsave altogether and have the script build the dotfiles and configure everything automatically without a prior environment.
+ 
+<br />
+<br />
+<br />
+<br />
 
 <img src="https://i.imgur.com/YiNMnan.png" />
 
